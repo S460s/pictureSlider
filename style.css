@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+img {
+	opacity: 0%;
+	position: absolute;
+	transform: translateX(-50%);
+	top: 10px;
+	transition: opacity 1.5s ease-in-out;
+	height: 40vh;
+}
+
+.arrow {
+	font-size: 20vh;
+	cursor: pointer;
+}
+
+#arrows {
+	margin-top: 40vh;
+}
+
+.checkPoint {
+	border: 2px black solid;
+	width: 4vh;
+	height: 4vh;
+	border-radius: 50%;
+	margin: 1vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	opacity: 20%;
+	transition: opacity 1s ease;
+}
+
+.opacityFull {
+	opacity: 100%;
+}
+
+#checkpoints {
+	display: flex;
+}
